@@ -1,9 +1,11 @@
 import { useContext } from "react";
 import ReactPaginate from "react-paginate"
+
 import Filter from "./components/Filter"
 import InputSearch from "./components/InputSearch"
 import Reset from "./components/Reset";
 import Table from "./components/Table"
+
 import { UsersContext } from "./context/UsersContext";
 
 function App() {
